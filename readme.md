@@ -1,6 +1,6 @@
 # cround
 
-A floating point number rounding package for Go which calls the rounding functions from the C standard library.
+A floating-point number rounding package for Go which calls the rounding functions from the C standard library.
 
 The Go standard library does not provide a rounding function in the math package, which requires developers to write their own. Here are some rounding functions you can use instead of doing that.
 
@@ -45,7 +45,7 @@ value := cround.ToNearestEven(2.5)
 
 ## Miscellaneous
 
-These links may be useful to learn about floating point rounding modes.
+These links may be useful to learn about floating-point rounding modes.
 
 * [IEEE Standard for Floating-Point Arithmetic: Rounding rules (IEEE 754)](https://en.wikipedia.org/wiki/IEEE_floating_point#Rounding_rules)
 * [The GNU C Library: Rounding](https://www.gnu.org/software/libc/manual/html_node/Rounding.html)
