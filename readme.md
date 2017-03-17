@@ -18,7 +18,7 @@ If you are not sure which function to use, you should use Round. A more explicit
 
 ### Round
 
-Round is a convenience wrapper for ToNearestEven().
+Round is a convenience wrapper for ToNearestEven.
 
 ```
 value := cround.Round(2.5)
@@ -27,7 +27,7 @@ value := cround.Round(2.5)
 
 ### RoundTo
 
-RoundTo is a convenience wrapper for ToNearestEven(), which rounds to a specified number of decimal places.
+RoundTo is a convenience wrapper for ToNearestEven, which rounds to a specified number of decimal places.
 
 ```
 value := cround.Round(1234.5678, 2)
