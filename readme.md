@@ -30,7 +30,7 @@ value := cround.Round(2.5)
 RoundTo is a convenience wrapper for ToNearestEven, which rounds to a specified number of decimal places.
 
 ```
-value := cround.Round(1234.5678, 2)
+value := cround.RoundTo(1234.5678, 2)
 // value is 1234.57
 ```
 

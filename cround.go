@@ -33,7 +33,7 @@ func RoundTo(x float64, dp float64) float64 {
 	return result / math.Pow(10, dp)
 }
 
-// ToNearestEven returns the nearest integer value of x, with ties rounded to even integers. 
+// ToNearestEven returns the nearest integer value of x, with ties rounded to even integers.
 //
 // Special cases are:
 //	ToNearestEven(±0) = ±0
