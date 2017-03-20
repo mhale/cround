@@ -66,9 +66,9 @@ func ToZero(x float64) float64 {
 	_, _ = C.fesetround(C.FE_TOWARDZERO)
 	result, _ := C.nearbyint(C.double(x))
 	return float64(result)
-
-	// There is no AwayFromZero equivalent in C.
 }
+
+// Note: There is no AwayFromZero equivalent in C.
 
 // ToPositiveInf returns the nearest integer value greater than x.
 //
